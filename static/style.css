@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("/static/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  margin: 60px 0 0 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input,
+select,
+label {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Only for login page */
+.login-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("/static/background1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.login-info {
+  flex: 1;
+  background-color: #004080;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Full-screen background and centering layout */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/static/background2.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Centered form box */
+.container {
+  width: 450px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styling */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Inputs and dropdowns */
+input,
+select,
+label {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.s{
+  flex: 1;
+  background-color: #004080;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+
+.jack {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.sayee {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.sayee h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.sayee p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.hari {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sai {
+    width: 300px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sai h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.sai input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.sai button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sai button:hover {
+    background-color: #0056b3;
+}
+
+.sai p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.sai p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sai p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .jack {
+        flex-direction: column;
+    }
+
+    .sayee, .hari {
+        flex: none;
+        width: 100%;
+        height: 50%;
+    }
+}
