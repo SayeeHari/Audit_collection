@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thank You</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="color: green">Form Submitted Successfully!</h2>
+      <p>Your Details has been saved and files uploaded.</p>
+      <a href="{{ url_for('login') }}">
+        <button style="margin-top: 20px">Back to Home</button>
+      </a>
+      <a href="{{ url_for('view_report') }}">
+  <button style="margin-top: 10px">View Your Report</button>
+</a>
+
+    </div>
+  </body>
+</html>

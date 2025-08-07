@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Details</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Please Enter the below Details 👇</h2>
+      <form method="POST" enctype="multipart/form-data">
+        <input
+          type="text"
+          name="org_name"
+          placeholder="Organization Name"
+          required
+        />
+        <input type="date" name="audit_date" required />
+
+        <select name="asset_type" required>
+          <option disabled selected>Select Asset Type</option>
+          <option>Server</option>
+          <option>Application</option>
+          <option>Source Code</option>
+          <option>Others</option>
+        </select>
+
+        <input
+          type="text"
+          name="auditor_name"
+          placeholder="Auditor Name"
+          required
+        />
+        <input type="text" name="location" placeholder="Location" required />
+
+        <select name="standard" required>
+          <option disabled selected>Select Standard</option>
+          <option>ISO 27001</option>
+          <option>NIST</option>
+          <option>CIS Controls</option>
+          <option>Others</option>
+        </select>
+
+        <label>Upload Excel File:</label>
+        <input type="file" name="excel_file" accept=".xlsx" required />
+
+        <label>Upload PDF File:</label>
+        <input type="file" name="pdf_file" accept=".pdf" required />
+
+        <button type="submit"><a href="{{ url_for('success') }}">Submit</a> </button>
+      </form>
+    </div>
+  </body>
+</html>
